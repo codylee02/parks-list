@@ -1,0 +1,10 @@
+.states-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.results li {
+    margin-left: 20px;
+}

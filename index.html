@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>National Parks Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <main role="main">
+            <div class="search-container">
+                <h1>Display parks in a area</h1>
+                <form>
+                    <label for="state-selector" class="state-selector">Enter state abbreviations separated by a comma</label>
+                        <input type="text" id="js-states" placeholder="Ex: NH,ND,TX" required>
+                    <label for="max-results">Max results:</label>
+                        <input type="number" id="js-max-results" value="10">
+                        <input type="submit" value="Search">
+                </form>
+            </div>
+            <section class="results">
+                
+            </section>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="index.js"></script>
+        </main>
+    </body>
+</html>
