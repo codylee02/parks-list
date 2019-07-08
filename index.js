@@ -1,6 +1,5 @@
 'use strict';
 
-const apiKey = "t0uHYkBfFVivZk7jJARtfvHNFV0OGY8wGAmnrbfZ";
 const baseURL = "https://developer.nps.gov/api/v1/parks"
 
 function displayParksList(responseJson) {
